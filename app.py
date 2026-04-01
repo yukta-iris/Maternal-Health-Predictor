@@ -18,7 +18,7 @@ model = pickle.load(open('maternal_model.pkl', 'rb'))
 
 
 LOCAL_DATA_CANDIDATES = ["iris.csv"]
-REMOTE_DATA_URL = "https://raw.githubusercontent.com/selva86/datasets/master/Maternal_Health_Risk_Data_Set.csv"
+REMOTE_DATA_URL = "/kaggle/input/maternal-health-risk-data/Maternal Health Risk Data Set.csv"
 LABEL_MAP = {"high risk": 2, "mid risk": 1, "low risk": 0}
 REVERSE_LABEL_MAP = {0: "Low Risk", 1: "Mid Risk", 2: "High Risk"}
 
